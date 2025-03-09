@@ -1,0 +1,98 @@
+body {
+    background-color: #253237;
+    color: #f0ebd8;
+    display: grid;
+    font-family: "Work Sans", Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    align-items: center;
+    color: #f0ebd8;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+  }
+  
+  h1 {
+    /* font-family: "Playfair Display", serif; */
+    font-weight: 300;
+    font-size: .875rem;
+    /* text-transform: uppercase; */
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  
+  h1, h2 {
+    font-family: "Source Code Pro", monospace;
+    color: #f0ebd8;
+  }
+  
+  .header_links {
+    display: flex;
+    flex-direction: row;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-size: .8rem;
+    font-weight: 300;
+    font-style: normal;
+    gap: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    align-items: flex-end;
+    display: flex;
+    padding: 0 3rem 7rem;
+  }
+  
+  .main_text {
+    font-size: .875rem;
+    max-width: 33vw;
+  }
+  
+  footer {
+    padding: 0 3rem 1rem;
+  }
+  
+  .footer_links {
+    display: flex;
+    flex-direction: row;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-size: .8rem;
+    font-weight: 300;
+    font-style: normal;
+    gap: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer_link-item {
+    list-style-type: none;
+  }
+  
+  .footer_link {
+    align-items: center;
+    color: #c2dfe3;
+    display: flex;
+    font-size: .9rem;
+    gap: .5rem;
+  }
+  
+  .external-icon {
+    height: 1rem;
+    width: 1rem;
+  }
+  
