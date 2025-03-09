@@ -2,21 +2,25 @@
  * Basic typography style for copy text
  */
 body {
-  color: $dark-grey;
-  font-family: $font-roboto;
-  font-style: normal;
-  font-weight: 400;
+  color: #f0ebd8;
+  font-family: "Work Sans", Helvetica, sans-serif;
+  font-family: "Work Sans", Helvetica, sans-serif;
+  font-optical-sizing: auto;
   font-size: $base-font-size;
+  font-style: normal;
+  font-weight: 300;
 }
+
 p{
-	color: $dark-grey;
+	color: #f0ebd8;
 }
+
 a{
-	color: $a-color;
+  
 }
+
 h1, h2, h3, h4, h5, h6{
-  color: $dark-grey;
-  font-family: $font-roboto;
+  font-family: "Source Code Pro", monospace;
   font-style: normal;
   font-weight: 700;
 }
