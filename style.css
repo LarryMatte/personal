@@ -2689,7 +2689,7 @@ main {
   align-items: center;
   color: #000;
   display: flex;
-  font-size: 0.9rem;
+  font-size: 1rem;
   gap: 0.5rem;
 }
 .footer_link-item {
@@ -2697,8 +2697,8 @@ main {
 }
 
 .external-icon {
-  height: 0.75rem;
-  width: 0.75rem;
+  height: 0.8rem;
+  width: 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
