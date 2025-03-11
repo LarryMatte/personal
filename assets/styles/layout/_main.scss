@@ -1,25 +1,26 @@
 body {
     background-color: #253237;
+    background-color: #fff;
     color: #f0ebd8;
+    color: #253237;
     display: grid;
     height: 100vh;
     grid-template-rows: auto 1fr auto;
     margin: 0;
-    padding: 0;
+    padding: 2rem 3rem 2rem;
   }
   
   header {
     align-items: center;
-    color: #f0ebd8;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 3rem;
+    // padding: 1rem 3rem;
   }
   
   h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: 500;
-    font-size: .875rem;
+    font-weight: 300;
+    font-size: 1.55rem;
+    // letter-spacing: .1rem;
     /* text-transform: uppercase; */
   }
   
@@ -30,15 +31,15 @@ body {
   
   
   h1, h2 {
-    font-family: "Source Code Pro", monospace;
-    color: #f0ebd8;
+    // font-family: "Playfair Display", serif;
+    // font-family: "Source Code Pro", monospace;
   }
 
   .header {
     &_links {
         display: flex;
         flex-direction: row;
-        font-family: "Source Code Pro", monospace;
+        // font-family: "Source Code Pro", monospace;
         font-optical-sizing: auto;
         font-size: .8rem;
         font-weight: 300;
@@ -51,14 +52,20 @@ body {
   
   main {
     align-items: flex-end;
-    color: #f0ebd8;
     display: flex;
-    padding: 0 3rem 7rem;
+    padding: 0 0 8rem;
   }
   
   .main_text {
-    font-size: .875rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    line-height: 1.65rem;
     max-width: 33vw;
+
+    strong {
+      font-weight: 500;
+    }
 
     @include media-width(932){max-width: 50vw;}
     @include media-width(754){max-width: 66vw;}
@@ -66,14 +73,14 @@ body {
   }
   
   footer {
-    padding: 0 3rem 1rem;
+    // padding: 0 3rem 1rem;
   }
 
   .footer {
     &_links {
         display: flex;
         flex-direction: row;
-        font-family: "Source Code Pro", monospace;
+        // font-family: "Source Code Pro", monospace;
         font-optical-sizing: auto;
         font-size: .8rem;
         font-weight: 300;
@@ -90,7 +97,8 @@ body {
 
     &_link {
         align-items: center;
-        color: #c2dfe3;
+        // color: #c2dfe3;
+        color: #000;
         display: flex;
         font-size: .9rem;
         gap: .5rem;
@@ -102,6 +110,6 @@ body {
   }
   
   .external-icon {
-    height: 1rem;
-    width: 1rem;
+    height: .75rem;
+    width: .75rem;
   }

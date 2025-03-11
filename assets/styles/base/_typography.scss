@@ -4,7 +4,7 @@
 body {
   color: #f0ebd8;
   font-family: "Work Sans", Helvetica, sans-serif;
-  font-family: "Source Code Pro", monospace;
+  // font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-size: $base-font-size;
   font-style: normal;
@@ -13,7 +13,7 @@ body {
 }
 
 p{
-	color: #f0ebd8;
+
 }
 
 a{
@@ -21,7 +21,8 @@ a{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: "Source Code Pro", monospace;
+  // font-family: "Source Code Pro", monospace;
+  // font-family: "Montserrat", Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
 }
