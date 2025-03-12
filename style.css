@@ -2649,6 +2649,7 @@ main {
 @media all and (max-width: 600px) {
   main {
     transition: 0.5s;
+    align-items: center;
     padding-bottom: 3rem;
   }
 }
@@ -2678,7 +2679,7 @@ main {
 @media all and (max-width: 600px) {
   .main_text {
     transition: 0.5s;
-    width: 100vw;
+    width: auto;
   }
 }
 
