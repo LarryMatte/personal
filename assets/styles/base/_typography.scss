@@ -1,9 +1,23 @@
 /**
  * Basic typography style for copy text
  */
-body {
+ @font-face {
+  font-family: "laygroteskBold";
+  src: url("./assets/fonts/laygrotesk-trial-bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "laygroteskRegular";
+  src: url("./assets/fonts/laygrotesk-trial-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+ body {
   color: #f0ebd8;
-  font-family: "Work Sans", Helvetica, sans-serif;
+  font-family: "laygroteskRegular", "Work Sans", Helvetica, sans-serif;
   // font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-size: $base-font-size;
@@ -12,7 +26,7 @@ body {
   line-height: 1.25rem;
 }
 
-p{
+p {
 
 }
 
@@ -20,13 +34,10 @@ a{
   
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   // font-family: "Source Code Pro", monospace;
   // font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "laygroteskBold";
   font-style: normal;
   font-weight: 700;
-}
-
-dd {
-    margin-left: 25px;
 }

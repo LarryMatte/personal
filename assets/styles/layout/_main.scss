@@ -54,6 +54,8 @@ body {
     align-items: flex-end;
     display: flex;
     padding: 0 0 8rem;
+
+    @include media-width(600){padding-bottom: 3rem;}
   }
   
   .main_text {
@@ -100,7 +102,7 @@ body {
         // color: #c2dfe3;
         color: #000;
         display: flex;
-        font-size: 1rem;
+        font-size: 0.9rem;
         gap: .5rem;
 
         &-item {
