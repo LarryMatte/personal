@@ -19,7 +19,7 @@ body {
   
   h1 {
     font-weight: 350;
-    font-size: 1.375rem;
+    font-size: 2rem;
     // letter-spacing: .1rem;
     /* text-transform: uppercase; */
   }
@@ -59,19 +59,19 @@ body {
   }
   
   .main_text {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 300;
     letter-spacing: .05rem;
-    line-height: 1.65rem;
-    max-width: 33vw;
+    line-height: 1.85rem;
+    width: 40vw;
 
     strong {
       font-weight: 500;
     }
 
-    @include media-width(932){max-width: 50vw;}
-    @include media-width(754){max-width: 66vw;}
-    @include media-width(600){max-width: 100vw;}
+    @include media-width(932){width: 50vw;}
+    @include media-width(754){width: 66vw;}
+    @include media-width(600){width: 100vw;}
   }
   
   footer {
