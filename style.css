@@ -2606,7 +2606,7 @@ body {
   color: #f0ebd8;
   color: #253237;
   display: grid;
-  height: 100vh;
+  height: 100dvh;
   grid-template-rows: auto 1fr auto;
   margin: 0;
   padding: 2rem 3rem 2rem;
@@ -2650,11 +2650,13 @@ main {
   main {
     transition: 0.5s;
     align-items: center;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
   }
 }
 
 .main_text {
+  list-style-type: none;
+  padding: 0;
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
